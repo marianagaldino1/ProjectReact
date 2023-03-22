@@ -46,7 +46,7 @@ export class FetchProduct extends Component {
                     {produtos.map(prod =>
                         <tr key={prod.id}>
                             <td>{prod.id}</td>
-                            <td>{prod.descricao}</td>
+                            <td>{prod.description}</td>
 
                             <td>
                                 <button className="btn btn-success" onClick={(id) => this.handleEdit(prod.id)}>Edit</button> &nbsp;
